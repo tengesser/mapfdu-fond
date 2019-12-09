@@ -1,0 +1,58 @@
+Call translator on /home/engesser/ic-fond/mynd/run15/../../mapfdugen/fond/domain_p15.pddl /home/engesser/ic-fond/mynd/run15/../../mapfdugen/fond/p15.pddl
+Parsing...
+Parsing: [0.010s CPU, 0.013s wall-clock]
+Normalizing task... [19.120s CPU, 19.125s wall-clock]
+Instantiating...
+Generating Datalog program... [2.430s CPU, 2.432s wall-clock]
+Normalizing Datalog program...
+Normalizing Datalog program: [5.530s CPU, 5.536s wall-clock]
+Preparing model... [36.730s CPU, 36.735s wall-clock]
+Generated 131230 rules.
+Computing model... [8.570s CPU, 8.566s wall-clock]
+69893 relevant atoms
+4036 auxiliary atoms
+73929 final queue length
+253371 total queue pushes
+Completing instantiation... [22.100s CPU, 22.114s wall-clock]
+Instantiating: [76.940s CPU, 76.962s wall-clock]
+Computing fact groups...
+Finding invariants...
+19 initial candidates
+Finding invariants: [0.030s CPU, 0.026s wall-clock]
+Checking invariant weight... [0.010s CPU, 0.010s wall-clock]
+Instantiating groups... [0.000s CPU, 0.005s wall-clock]
+Collecting mutex groups... [0.000s CPU, 0.001s wall-clock]
+Choosing groups...
+636 uncovered facts
+Choosing groups: [0.010s CPU, 0.005s wall-clock]
+Building translation key... [0.010s CPU, 0.003s wall-clock]
+Computing fact groups: [0.070s CPU, 0.063s wall-clock]
+Building STRIPS to SAS dictionary... [0.000s CPU, 0.001s wall-clock]
+Building dictionary for full mutex groups... [0.000s CPU, 0.001s wall-clock]
+Building mutex information...
+Building mutex information: [0.000s CPU, 0.002s wall-clock]
+Translating task...
+Processing axioms...
+Simplifying axioms... [17.660s CPU, 17.655s wall-clock]
+Processing axioms: [19.980s CPU, 19.975s wall-clock]
+Translating task: [25.910s CPU, 25.907s wall-clock]
+51520 effect conditions simplified
+0 implied preconditions added
+Detecting unreachable propositions...
+0 operators removed
+1 propositions removed
+Detecting unreachable propositions: [0.570s CPU, 0.570s wall-clock]
+Translator variables: 637
+Translator derived variables: 15
+Translator facts: 1288
+Translator goal facts: 1
+Translator mutex groups: 1
+Translator total mutex groups size: 16
+Translator operators: 3456
+Translator axioms: 6687
+Translator task size: 251881
+Translator peak memory: 2006228 KB
+Writing output... [0.360s CPU, 0.386s wall-clock]
+Done! [123.660s CPU, 123.714s wall-clock]
+Heuristic: Zero-heuristic.
+Algorithm: AO*-search

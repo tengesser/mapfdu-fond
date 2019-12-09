@@ -1,0 +1,74 @@
+Call translator on /home/engesser/ic-fond/mynd/run03/../../mapfdugen/mapfdu/domain_p03.pddl /home/engesser/ic-fond/mynd/run03/../../mapfdugen/mapfdu/p03.pddl
+Parsing...
+Parsing: [0.000s CPU, 0.005s wall-clock]
+Normalizing task... [0.000s CPU, 0.002s wall-clock]
+Instantiating...
+Generating Datalog program... [0.010s CPU, 0.001s wall-clock]
+Normalizing Datalog program...
+Normalizing Datalog program: [0.000s CPU, 0.011s wall-clock]
+Preparing model... [0.000s CPU, 0.003s wall-clock]
+Generated 94 rules.
+Computing model... [0.020s CPU, 0.014s wall-clock]
+409 relevant atoms
+324 auxiliary atoms
+733 final queue length
+1969 total queue pushes
+Completing instantiation... [0.030s CPU, 0.034s wall-clock]
+Instantiating: [0.060s CPU, 0.064s wall-clock]
+Computing fact groups...
+Finding invariants...
+19 initial candidates
+Finding invariants: [0.010s CPU, 0.007s wall-clock]
+Checking invariant weight... [0.000s CPU, 0.000s wall-clock]
+Instantiating groups... [0.000s CPU, 0.001s wall-clock]
+Collecting mutex groups... [0.000s CPU, 0.000s wall-clock]
+Choosing groups...
+68 uncovered facts
+Choosing groups: [0.000s CPU, 0.000s wall-clock]
+Building translation key... [0.000s CPU, 0.000s wall-clock]
+Computing fact groups: [0.010s CPU, 0.009s wall-clock]
+Building STRIPS to SAS dictionary... [0.000s CPU, 0.000s wall-clock]
+Building dictionary for full mutex groups... [0.000s CPU, 0.000s wall-clock]
+Building mutex information...
+Building mutex information: [0.000s CPU, 0.000s wall-clock]
+Translating task...
+Processing axioms...
+Simplifying axioms... [0.000s CPU, 0.001s wall-clock]
+Processing axioms: [0.010s CPU, 0.005s wall-clock]
+Translating task: [0.070s CPU, 0.073s wall-clock]
+760 effect conditions simplified
+0 implied preconditions added
+Detecting unreachable propositions...
+0 operators removed
+1 propositions removed
+Detecting unreachable propositions: [0.010s CPU, 0.007s wall-clock]
+Translator variables: 69
+Translator derived variables: 9
+Translator facts: 140
+Translator goal facts: 1
+Translator mutex groups: 1
+Translator total mutex groups size: 4
+Translator operators: 240
+Translator axioms: 21
+Translator task size: 3837
+Translator peak memory: 32144 KB
+Writing output... [0.010s CPU, 0.008s wall-clock]
+Done! [0.160s CPU, 0.168s wall-clock]
+Heuristic: FF-heuristic.
+Algorithm: AO*-search
+The protagonist has got a winning strategy.
+INITIAL IS PROVEN!
+
+Result: Strong plan found.
+
+Time needed for preprocess (Parsing, PDBs, ...):    0.03 seconds.
+Time needed for search:                             0.377 seconds.
+Time needed:                                        0.407 seconds.
+Total Garbage Collections: 6
+Total Garbage Collection Time: 0 seconds.
+
+Out of 995 nodes, 691 are proven
+Number of node expansions: 798
+Policy entries: 146
+Number of sensing applications in policy: 0
+Dot file: ../output/plan03.dot

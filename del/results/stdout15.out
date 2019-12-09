@@ -1,0 +1,7 @@
+Problem mapfdu_4_14:
+BEGIN EAO* SEARCH!
+/var/spool/slurm-llnl/job4272781/slurm_script: line 10: 134046 Segmentation fault      (core dumped) ../../planner/planner conditional individual none ../mapfdugen/del/domain.pddl ../mapfdugen/del/p$ID.pddl
+
+real	23m7.828s
+user	22m59.736s
+sys	0m7.880s

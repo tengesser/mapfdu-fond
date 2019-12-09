@@ -1,0 +1,10 @@
+Problem mapfdu_4_10:
+BEGIN EAO* SEARCH!
+
+	#NExp	#NCrt	#NOmit	#HHitS	#HHitUS	#Wtot	#Wmax	PlanDepth
+Search:	62433	62449	0	0	0	735968	16	32
+Heur:	 no heuristics
+
+real	8m7.715s
+user	8m4.266s
+sys	0m3.400s
